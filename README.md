@@ -1,5 +1,16 @@
 # Tech Test
 
+## Plan
+
+- Create folder structure with CRA
+- Test out fetching from the API
+    - Create async function using fetch api to test
+    - Pass in search term as a param and ensure get back expected results
+- Link to frontend 
+    - Create input field to search and first check it logs correctly
+        - useState to monitor changes of the input
+
+
 ## Key points from problem
 
 - To use React library
