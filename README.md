@@ -1,10 +1,40 @@
 # Tech Test
 
+## Key points from problem
+
+- To use React library
+- Create a search page for different drinks to help bartenders learn ingredients
+- Have a back-end search API `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=<SEARCH_TERM>` where `<SEARCH_TERM>` is the name of a drink a bartender might enter.
+
+### Expected functionality
+
+- At minimum, should return results for "Margarita", "Old fashioned" or "Negroni" (These may be good for testing)
+- Search page should render image of each result, name of cocktail and at least two ingredients
+- Responsive (mobile and web)
+- Should stick to existing colour palette be visually appealing (plan out before coding).
+- Intuitive and easy to use.
+
+Extension tasks
+- Come back to these if have time.
+
 ## Responses to questions:
 
-TBC
+### What more would you do if you spent more time on it? (this is an opportunity to explain your thinking and approach further)
 
--
+
+
+### Explain why you took the approach that you did? e.g. why did you pick a particular library (or none at all)?
+
+
+### Are there any known issues you'd like to flag?
+
+
+### How would you improve the API that you used?
+
+
+### If you were building a production API from scratch, what are some considerations you'd need to factor in?
+
+--------
 
 # Instructions
 
