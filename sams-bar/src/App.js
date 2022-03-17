@@ -3,9 +3,9 @@ import React, { useEffect } from "react";
 
 function App() {
   // Async function to fetch from API
-  async function getCocktailData() {
+  async function getCocktailData(searchTerm) {
     const response = await fetch(
-      "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=Margarita"
+      `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${searchTerm}`
     );
     const data = await response.json();
     console.log(data);
@@ -24,7 +24,9 @@ function App() {
 
   // Use Effect hook to manage effects of HTTP req after render
   useEffect(() => {
-    getCocktailData();
+    getCocktailData("Margarita");
+    getCocktailData("Old fashioned");
+    getCocktailData("Negroni");
   });
 
   return (
